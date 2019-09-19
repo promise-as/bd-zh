@@ -121,13 +121,16 @@ html, body, div, a, p, span, ul, li, input {
 }
 
 .bd-zh .bd-zh-ls {
-  padding: 0.48rem 0.30667rem 0.41333rem 0.21333rem;
+  width: 10rem;
+  padding: 0.48rem 0.30667rem 0.4rem 0.21333rem;
+  background-color: #ffffff;
 }
 
 .bd-zh .bd-zh-ls .ls-l .l-avatar {
   width: 1.64rem;
   height: 1.65333rem;
   margin-right: 0.26667rem;
+  border-radius: 50%;
 }
 
 .bd-zh .bd-zh-ls .ls-l .l-detail .detail-name {
@@ -151,14 +154,14 @@ html, body, div, a, p, span, ul, li, input {
 .bd-zh .bd-zh-ls .ls-r .r-icon {
   width: 0.33333rem;
   height: 0.38667rem;
-  background: url("../images/icon_1.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201909/hbj/bd-z'h/images/icon_1.png") no-repeat;
   background-size: 100% 100%;
 }
 
 .bd-zh .bd-zh-km {
   border-top: 1px solid #eeeeee;
   margin: 0 0.16rem;
-  padding: 0 0.2rem;
+  padding: 0 0.2rem 0.66667rem;
 }
 
 .bd-zh .bd-zh-km .km-bt {
@@ -180,7 +183,7 @@ html, body, div, a, p, span, ul, li, input {
 .bd-zh .bd-zh-km .km-bt .bt-r .r-icon {
   width: 0.28rem;
   height: 0.30667rem;
-  background: url("../images/icon_2.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201909/hbj/bd-z'h/images/icon_2.png") no-repeat;
   background-size: 100% 100%;
 }
 
@@ -205,6 +208,10 @@ html, body, div, a, p, span, ul, li, input {
   color: #cf3340;
 }
 
+.bd-zh .bd-zh-km .sign-in {
+  padding-top: 0.53333rem;
+}
+
 .bd-zh .bd-zh-km .sign-in input, .bd-zh .bd-zh-km .sign-in select {
   width: 4.53333rem;
   height: 1.02667rem;
@@ -218,7 +225,7 @@ html, body, div, a, p, span, ul, li, input {
 .bd-zh .bd-zh-km .sign-in select {
   padding: 0 1em;
   color: #666666;
-  background: url("../images/icon_10.png") no-repeat 3.94667rem center #f2f2f2;
+  background: url("https://img.thea.cn/public/platform/thea/201909/hbj/bd-z'h/images/icon_10.png") no-repeat 3.94667rem center #f2f2f2;
   background-size: 0.28rem 0.16rem;
 }
 
@@ -274,7 +281,7 @@ html, body, div, a, p, span, ul, li, input {
 .bd-zh .bd-zh-kj .kj-bt .bt-icon {
   width: 0.77333rem;
   height: 0.66667rem;
-  background: url("../images/icon_11.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201909/hbj/bd-z'h/images/icon_11.png") no-repeat;
   background-size: 100% 100%;
   margin-left: -0.05333rem;
   vertical-align: text-top;
@@ -309,7 +316,7 @@ html, body, div, a, p, span, ul, li, input {
 .bd-zh .bd-zh-kj .kj-item .item-detail .detail-row .row-icon {
   width: 0.26667rem;
   height: 0.30667rem;
-  background: url("../images/icon_7.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201909/hbj/bd-z'h/images/icon_7.png") no-repeat;
   background-size: 100% 100%;
   margin-right: 0.08rem;
 }
@@ -317,7 +324,7 @@ html, body, div, a, p, span, ul, li, input {
 .bd-zh .bd-zh-kj .kj-item .item-detail .detail-row .row-icon_2 {
   width: 0.25333rem;
   height: 0.29333rem;
-  background: url("../images/icon_8.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201909/hbj/bd-z'h/images/icon_8.png") no-repeat;
   background-size: 100% 100%;
   margin-right: 0.09333rem;
   margin-left: 0.45333rem;
@@ -343,12 +350,13 @@ html, body, div, a, p, span, ul, li, input {
   line-height: 0.66667rem;
   font-weight: bold;
   color: #333333;
+  margin-bottom: 0.26667rem;
 }
 
 .bd-zh .bd-zh-tc .tc-bt .bt-icon {
   width: 0.77333rem;
   height: 0.66667rem;
-  background: url("../images/icon_11.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201909/hbj/bd-z'h/images/icon_11.png") no-repeat;
   background-size: 100% 100%;
   margin-left: -0.05333rem;
   vertical-align: text-top;
@@ -380,18 +388,20 @@ html, body, div, a, p, span, ul, li, input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 0.13333rem;
 }
 
 .bd-zh .bd-zh-tc .tc-nr .nr-item .item-row {
   font-size: 0.37333rem;
   line-height: 0.62667rem;
   color: #333333;
+  padding: 0.13333rem 0;
 }
 
 .bd-zh .bd-zh-tc .tc-nr .nr-item .item-row .row-icon {
   width: 0.18667rem;
   height: 0.18667rem;
-  background: url("../images/icon_9.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201909/hbj/bd-z'h/images/icon_9.png") no-repeat;
   background-size: 100% 100%;
   margin-right: 0.14667rem;
 }
@@ -422,29 +432,29 @@ html, body, div, a, p, span, ul, li, input {
   width: 9.17333rem;
   height: 1.13333rem;
   line-height: 1.13333rem;
-  background: url("../images/bg_1.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201909/hbj/bd-z'h/images/bg_1.png") no-repeat;
   background-size: 100% 100%;
   font-size: 0.37333rem;
   color: #ffffff;
   text-align: center;
-  margin-top: 0.61333rem;
+  margin-top: 0.89333rem;
   margin-bottom: 0.26667rem;
 }
 
 .bd-zh .bd-zh-tc .tc-lq .lq-btn {
-  width: 1.74667rem;
   height: 0.69333rem;
   line-height: 0.69333rem;
   background-color: #ffffff;
   border-radius: 0.34667rem;
   color: #d84c58;
+  padding: 0 0.18667rem;
 }
 
 .bd-zh .bd-zh-tc .tc-live {
   width: 9.17333rem;
   height: 1.13333rem;
   line-height: 1.13333rem;
-  background: url("../images/bg_2.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201909/hbj/bd-z'h/images/bg_2.png") no-repeat;
   background-size: 100% 100%;
   font-size: 0.37333rem;
   color: #ffffff;
@@ -453,10 +463,10 @@ html, body, div, a, p, span, ul, li, input {
 }
 
 .bd-zh .bd-zh-tc .tc-live .lq-btn {
-  width: 1.74667rem;
   height: 0.69333rem;
   line-height: 0.69333rem;
   background-color: #ffffff;
   border-radius: 0.34667rem;
   color: #d99e4d;
+  padding: 0 0.18667rem;
 }
